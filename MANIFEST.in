@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include greentechv2 *.css
+recursive-include greentechv2 *.csv
+recursive-include greentechv2 *.html
+recursive-include greentechv2 *.ico
+recursive-include greentechv2 *.js
+recursive-include greentechv2 *.json
+recursive-include greentechv2 *.md
+recursive-include greentechv2 *.png
+recursive-include greentechv2 *.py
+recursive-include greentechv2 *.svg
+recursive-include greentechv2 *.txt
+recursive-exclude greentechv2 *.pyc
